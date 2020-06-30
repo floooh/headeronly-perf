@@ -1,1 +1,1 @@
-for ((i=0;i<1000;i++)); do clang -c decl-nocomments.c -o decl-nocomments.o; done
+for ((i=0;i<1000;i++)); do cc -c decl-nocomments.c -o decl-nocomments.o; done
